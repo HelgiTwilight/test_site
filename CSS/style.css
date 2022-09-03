@@ -41,30 +41,12 @@ img{
 
 .section {
 border: solid #9933CC;
-	padding: 15px;
+	background-color: #333333;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
-	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
-	border-radius: 5px;
-	position: relative;
-	z-index: 1;
-	background: inherit;
-	overflow: hidden;
 }
 
-.section:before {
-	content: "";
-	position: absolute;
-	background: inherit;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-	filter: blur(5px);
-	margin: -20px;
-}
 
 .video{
     border: solid #9933CC;
